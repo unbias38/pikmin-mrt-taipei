@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1a3a2f"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- 裝飾圓點：模擬地圖站點 -->
+  <g opacity="0.4">
+    <circle cx="180" cy="180" r="6" fill="#0070BD"/>
+    <circle cx="280" cy="220" r="6" fill="#E3002C"/>
+    <circle cx="350" cy="160" r="6" fill="#008659"/>
+    <circle cx="420" cy="240" r="6" fill="#F8B61C"/>
+    <circle cx="180" cy="450" r="6" fill="#C48C31"/>
+    <circle cx="280" cy="500" r="6" fill="#E3002C"/>
+    <circle cx="380" cy="450" r="6" fill="#008659"/>
+    <circle cx="950" cy="180" r="6" fill="#0070BD"/>
+    <circle cx="1050" cy="240" r="6" fill="#E3002C"/>
+    <circle cx="1000" cy="450" r="6" fill="#F8B61C"/>
+    <circle cx="900" cy="500" r="6" fill="#C48C31"/>
+    <line x1="180" y1="180" x2="420" y2="240" stroke="#0070BD" stroke-width="2" opacity="0.5"/>
+    <line x1="280" y1="220" x2="280" y2="500" stroke="#E3002C" stroke-width="2" opacity="0.5"/>
+    <line x1="350" y1="160" x2="380" y2="450" stroke="#008659" stroke-width="2" opacity="0.5"/>
+  </g>
+
+  <!-- 中央內容 -->
+  <text x="600" y="220" font-family="'Microsoft JhengHei', system-ui, sans-serif" font-size="84" font-weight="800" text-anchor="middle" fill="white">🌸 台北捷運</text>
+  <text x="600" y="320" font-family="'Microsoft JhengHei', system-ui, sans-serif" font-size="56" font-weight="700" text-anchor="middle" fill="url(#accent)">× Pikmin Bloom</text>
+  <text x="600" y="380" font-family="'Microsoft JhengHei', system-ui, sans-serif" font-size="32" font-weight="500" text-anchor="middle" fill="#94a3b8">攻略地圖</text>
+
+  <!-- 副標 -->
+  <text x="600" y="475" font-family="'Microsoft JhengHei', system-ui, sans-serif" font-size="22" text-anchor="middle" fill="#cbd5e1">選一站 → 看周邊 800m 可拿哪些 Decor 皮克敏</text>
+  <text x="600" y="510" font-family="'Microsoft JhengHei', system-ui, sans-serif" font-size="22" text-anchor="middle" fill="#cbd5e1">AI 寫散步攻略｜109 站｜48,000 個店家</text>
+
+  <!-- 底部 -->
+  <text x="600" y="585" font-family="system-ui, sans-serif" font-size="18" text-anchor="middle" fill="#64748b">Designed by 九月筍 · MIT License</text>
+</svg>
